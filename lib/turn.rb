@@ -35,6 +35,8 @@ def turn(board)
     move(board, index, token = "X")
   else input_to_index(user_input)
     until valid_move?(board, index)
+      break
   end
 end
+display_board(board)
 end
