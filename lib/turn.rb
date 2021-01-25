@@ -37,3 +37,4 @@ def turn(board)
     until valid_move?(board, index)
   end
 end
+end
